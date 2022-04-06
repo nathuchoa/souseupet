@@ -1,0 +1,63 @@
+INSTRUÇÕES DO EXERCÍCIO
+
+
+
+
+INSTRUÇÕES DA PÁGINA
+
+Fontes
+
+
+Paleta de Cores
+.color1 { #d3f3ee }; - LIGHT-CYAN 
+.color2 { #c2e812 }; - BITTER-LEMON
+.color3 { #27233a }; - DARK-PURPLE
+.color4 { #0e9594 }; - VIRIDIAN-GREEN
+.color5 { #127475 }; - SKOBELOFF 
+
+
+CSS HEX
+--light-cyan: #d3f3ee;
+--bitter-lemon: #c2e812;
+--dark-purple: #27233a;
+--viridian-green: #0e9594;
+--skobeloff: #127475;
+
+CSS HSL */
+ --light-cyan: hsla(171, 57%, 89%, 1);
+--bitter-lemon: hsla(71, 86%, 49%, 1);
+--dark-purple: hsla(250, 25%, 18%, 1);
+--viridian-green: hsla(180, 83%, 32%, 1);
+--skobeloff: hsla(181, 73%, 26%, 1);
+
+/* SCSS HEX */
+/* $light-cyan: #d3f3eeff;
+$bitter-lemon: #c2e812ff;
+$dark-purple: #27233aff;
+$viridian-green: #0e9594ff;
+$skobeloff: #127475ff;
+
+/* SCSS HSL */
+/* $light-cyan: hsla(171, 57%, 89%, 1);
+$bitter-lemon: hsla(71, 86%, 49%, 1);
+$dark-purple: hsla(250, 25%, 18%, 1); */
+/* $viridian-green: hsla(180, 83%, 32%, 1); */
+/* $skobeloff: hsla(181, 73%, 26%, 1); */
+
+/* SCSS RGB */
+/* $light-cyan: rgba(211, 243, 238, 1);
+$bitter-lemon: rgba(194, 232, 18, 1);
+$dark-purple: rgba(39, 35, 58, 1);
+$viridian-green: rgba(14, 149, 148, 1);
+$skobeloff: rgba(18, 116, 117, 1); */
+
+/* SCSS Gradient */
+/* $gradient-top: linear-gradient(0deg, #d3f3eeff, #c2e812ff, #27233aff, #0e9594ff, #127475ff);
+$gradient-right: linear-gradient(90deg, #d3f3eeff, #c2e812ff, #27233aff, #0e9594ff, #127475ff);
+$gradient-bottom: linear-gradient(180deg, #d3f3eeff, #c2e812ff, #27233aff, #0e9594ff, #127475ff);
+$gradient-left: linear-gradient(270deg, #d3f3eeff, #c2e812ff, #27233aff, #0e9594ff, #127475ff);
+$gradient-top-right: linear-gradient(45deg, #d3f3ee, #c2e812, #27233a, #0e9594, #127475);
+$gradient-bottom-right: linear-gradient(135deg, #d3f3ee, #c2e812, #27233a, #0e9594, #127475);
+$gradient-top-left: linear-gradient(225deg, #d3f3ee, #c2e812, #27233a, #0e9594, #127475);
+$gradient-bottom-left: linear-gradient(315deg, #d3f3ee, #c2e812, #27233a, #0e9594, #127475);
+$gradient-radial: radial-gradient(#d3f3ee, #c2e812, #27233a, #0e9594, #127475);
