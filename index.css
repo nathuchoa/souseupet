@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 100%;
+  display: block;
 }
 /*DESIGN*/
 :root {
@@ -70,18 +72,37 @@ article{
   header {
     height: auto;
     display: flex;
+  flex-direction: column;
     justify-content: center;
     margin: 0;
   }
   .menu {
-    display: flex;
-    height: auto;
-    flex-direction: column;
+    display: inline;
     margin: 0 auto;
     gap: 0px;
   }
 }
 
+div.img {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.img:hover {
+  border: 1px solid #777;
+}
+
+div.img img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
 
 .gatos {
   display:flex;
