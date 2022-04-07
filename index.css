@@ -33,20 +33,14 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--cor-1);
+  background-color: var(--cor-4);
 }
 
 article{
   max-width: 90%;
 }
-.titulo {
-  color: aliceblue;
-  margin: 20px;
-  font-size: 30px;
-  position: relative;
-}
 
-h1:hover {
+.logomarca:hover {
   font-size: 35px;
 }
 
