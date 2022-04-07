@@ -98,6 +98,11 @@ h1:hover {
   list-style: none;
 }
 
+.gatos img:hover{
+  height: 300px;
+  width: 300px;
+}
+
 h2{
   margin: 2rem auto;
 
